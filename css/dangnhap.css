@@ -1,0 +1,56 @@
+.form-control{
+    display: block;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background-color:   #222222;
+    height: 100vh;
+    overflow: hidden;
+}
+.center{
+    position: absolute;
+    top : 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     width: 400px;
+    background: gray;
+    border-radius: 10px;
+}
+form{
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+.tk {
+    position: relative;
+    border-bottom: 2px solid red;
+    margin: 30px 0px;
+}
+.center input{
+    font-size: 16px;
+    background-color: silver;
+}
+label{
+    color: white;
+    top: 50%;
+    left: 50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    width: 50%;
+    height: 50px;
+    float: left;
+    border: 1px solid;
+    background: #CCCCCC;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 700;
+} 
+.center button  :hover{
+    color: red;
+}
+

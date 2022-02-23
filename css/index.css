@@ -1,0 +1,196 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 1200px;
+    margin: 0px auto;
+    background: #222222;
+}
+.head{
+    border-radius:10px;
+    padding: 10px;
+    margin: 5px;
+}
+.logo{ 
+    border: 2px solid;
+    text-align: center;
+    background: grey;
+    padding: 5px;
+    height: 600px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    overflow: hidden;
+    background: #CCCCCC;  
+}
+ .menu ul a{
+    float: left;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    padding: 14px 16px;
+    text-align: center;
+    color: #FF0033;
+ }
+ .menu ul a:hover{
+    color: yellow;
+ }
+ .menu ul a p{
+    color: yellow;
+}
+.left{
+    width: 75%;
+    float: left;
+    height: 2300px;
+}
+.card-new{
+    border-radius:20px;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    height: 360px;
+    width: 290px;
+    float: left;
+    text-align: center;
+    
+}
+.card-new a {
+    color: black;
+    font-size: 20px;
+    text-decoration:none
+}
+.card-new a:hover{
+    font-size: 21px;
+    color: red;
+}
+.card-new a img{
+    height: 270px;
+    width: 270px;
+}
+.card-new a img:hover{
+    height: 275px;
+    width: 275px;
+}
+
+
+.right{
+    width: 25%;
+    float: left;
+    height: 2300px;
+    
+}
+.card-new1 {
+    border-radius:10px;
+    background-color: #A9A9A9;
+    padding: 10px;
+    margin: 5px;
+    height: 729px;
+    width: 290px;
+    float: left;
+    font-size: 30px;
+}
+.vot{
+    border-radius:10px;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    height: 50px;
+    width: 260px;
+    float: left;
+    text-align: center;
+}
+.vot a{
+    text-decoration:none;
+    font-size: 30px;
+    color: red;
+}
+.vot a:hover{
+    font-size: 31px;
+}
+.vot img{
+    padding-top: 40px;
+}
+.card-new2 {
+    border-radius:10px;
+    background-color: #A9A9A9;
+    padding: 10px;
+    margin: 5px;
+    height: 729px;
+    width: 290px;
+    float: left;
+    font-size: 30px;
+}
+.giay{
+    border-radius:10px;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    height: 50px;
+    width: 260px;
+    float: left;
+    text-align: center;
+}
+.giay a{
+    text-decoration:none;
+    font-size: 30px;
+    color: red;
+}
+.giay a:hover{
+    font-size: 31px;
+}
+.giay img{
+    padding-top: 40px;
+}
+.card-new3 {
+    border-radius:10px;
+    background-color: #A9A9A9;
+    padding: 10px;
+    margin: 5px;
+    height: 729px;
+    width: 290px;
+    float: left;
+    font-size: 30px;
+}
+.ao{
+    border-radius:10px;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    height: 50px;
+    width: 260px;
+    float: left;
+    text-align: center;
+}
+.ao a{
+    text-decoration:none;
+    font-size: 30px;
+    color: red;
+}
+.ao a:hover{
+    font-size: 31px;
+}
+.ao img{
+    padding-top: 40px;
+}
+.footer{
+    clear: left;
+    background:	black;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+.footer p{
+    line-height: 0.5cm;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+

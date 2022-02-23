@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 1200px;
+    margin: 0px auto;
+    background: #222222;
+}
+.head{
+    border-radius:10px;
+    padding: 10px;
+    margin: 5px;
+}
+.logo{ 
+    border: 2px solid;
+    text-align: center;
+    background: grey;
+    padding: 5px;
+    height: 600px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.menu{
+    overflow: hidden;
+    background: #CCCCCC;  
+}
+ .menu ul a{
+    float: left;
+    text-decoration: none;
+    display: block;
+    line-height: 40px;
+    padding: 14px 16px;
+    text-align: center;
+    color: #FF0033;
+ }
+ .menu ul a:hover{
+    color: yellow;
+ }
+ .menu ul a p{
+    color: yellow;
+}
+
+
+
+
+.sanPham{
+    padding-top: 50px;
+    float: left;
+}
+.sanPham p {
+    margin-top: 10px;
+}
+.left{
+    width: 600px;
+}
+.right{
+    padding: 50px;
+    height: 700px;
+}
+.bigleft {
+    width: 100%;
+}
+.bigleft img{
+    width: 100%;
+    
+}
+.right-name{
+    font-size: 16px;
+    font-weight: 100px;
+    color: #FF0033;
+}
+.right-gia{
+    font-size: 30px;
+    padding: 10px;
+    color: yellow;
+}
+.right-soluong{
+    font-size: 25px;
+    color: orange;
+}
+.right-soluong input{
+    width: 35px;
+    height: 40px;
+}
+
+.muahang button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    display: block;
+    color: black;
+    background-color: red;
+    margin: 20px 0 12px;
+}
+.muahang button:hover{
+    font-size: 25px;
+}
+
+
+.thongtin{
+    color: red;
+}
+.thongtin h1{
+    padding: 10px;
+}
+.thongtin p{
+    padding: 5px;
+}
+.thongtin img{
+    width: 100%;
+    padding: 20px;
+}
+
+.hienlai h1{
+    padding-top: 20px;
+    font-size: 40px;
+    color: red;
+}
+.card-new{
+    
+    border-radius:20px;
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    height: 360px;
+    width: 290px;
+    float: left;
+    text-align: center;
+    
+}
+.card-new a {
+    color: black;
+    font-size: 20px;
+    text-decoration:none
+}
+.card-new a:hover{
+    font-size: 21px;
+    color: red;
+}
+.card-new a img{
+    height: 270px;
+    width: 270px;
+}
+.card-new a img:hover{
+    height: 275px;
+    width: 275px;
+}
+
+
+ .footer{
+    clear: left;
+    background:	black;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+}
+.footer p{
+    line-height: 0.5cm;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
